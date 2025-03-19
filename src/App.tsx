@@ -1,7 +1,7 @@
 import "./App.css";
 
 const App = () => {
-  const items = Array.from({ length: 1000 });
+  const items = Array.from({ length: 100 });
 
   return (
     <div className="container">
