@@ -40,7 +40,7 @@
 }
 
 .footer {
-  background-color: green;
+  background-color: violet;
   position: absolute;
   /* bottom: env(safe-area-inset-bottom); */
   bottom: 0;
