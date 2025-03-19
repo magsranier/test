@@ -45,6 +45,7 @@ div {
 
 @supports (-webkit-touch-callout: none) {
   .footer {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    background-image: yellow !important;
   }
 }
