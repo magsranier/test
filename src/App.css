@@ -17,9 +17,11 @@ div {
   width: 100%;
 }
 
-.header,
+.header {
+  height: 15%;
+}
 .footer {
-  height: 10%;
+  height: 5%;
 }
 
 .header {
