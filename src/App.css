@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  padding-bottom: env(safe-area-inset-bottom);
-  padding-top: env(safe-area-inset-top);
-}
-
 .container {
   height: 100vh;
   width: 100%;
@@ -16,6 +11,10 @@ body {
 
 div {
   width: 100%;
+}
+
+body {
+  padding-bottom: 40px;
 }
 
 .header {

@@ -2,6 +2,7 @@ import "./App.css";
 
 const App = () => {
   const items = Array.from({ length: 100 });
+  console.log();
 
   return (
     <div className="container">
