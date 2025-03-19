@@ -15,7 +15,9 @@
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <script>
-      const sampleURL = new URL("https://www.client8.me/home/");
+      const sampleURL = new URL(
+        "https://www.client8.me/home/?fromGame=telegramPlayNow&sessionToken={{sessionToken}}"
+      );
       sampleURL.searchParams.set("platform", "ios");
       sampleURL.searchParams.set("viewport", "796");
       const app = window.Telegram;
