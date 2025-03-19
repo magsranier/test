@@ -3,10 +3,10 @@ import "./App.css";
 const App = () => {
   return (
     <div className="container">
-      <div className="header"></div>
+      <div className="header">HEADER</div>
 
-      <div className="body"></div>
-      <div className="footer"></div>
+      <div className="body">BODY</div>
+      <div className="footer">FOOTER</div>
     </div>
   );
 };
