@@ -42,7 +42,7 @@
 .footer {
   background-color: red;
   position: absolute;
-  bottom: 0;
+  bottom: env(safe-area-inset-bottom);
   left: 0;
   height: 40px;
   width: 100%;
