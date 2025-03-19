@@ -5,12 +5,8 @@
 }
 
 .container {
-  height: 100dvh;
+  height: 80dvh;
   width: 100%;
-}
-
-body {
-  padding-bottom: 200px;
 }
 
 div {
