@@ -40,9 +40,10 @@
 }
 
 .footer {
-  background-color: blue;
+  background-color: green;
   position: absolute;
-  bottom: env(safe-area-inset-bottom);
+  /* bottom: env(safe-area-inset-bottom); */
+  bottom: 0;
   left: 0;
   height: 40px;
   width: 100%;
