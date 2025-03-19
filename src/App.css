@@ -5,7 +5,7 @@
 }
 
 .container {
-  height: 100svh;
+  height: 100dvh;
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ div {
 }
 
 .item {
-  background-color: orange;
+  background-color: pink;
   padding: 2rem;
   width: 100%;
 }
