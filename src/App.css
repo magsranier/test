@@ -29,4 +29,14 @@ div {
 .body {
   height: 80%;
   background-color: red;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item {
+  background-color: brown;
+  padding: 2rem;
+  width: 100%;
 }
