@@ -15,10 +15,10 @@
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <script>
-      const webapp = window.Telegram;
-      webapp.expand();
-      webapp.MainButton.hide();
-      alert(webapp.WebApp.platform, webapp.viewportHeight);
+      const app = window.Telegram;
+      app.WebApp.expand();
+      app.MainButton.hide();
+      alert(app.WebApp.platform, app.WebApp.viewportHeight);
     </script>
   </body>
 </html>
