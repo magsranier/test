@@ -15,8 +15,9 @@
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <script>
-      window.Telegram.WebApp.expand();
-      alert(window.Telegram.WebApp.platform);
+      const webapp = window.Telegram.webapp.WebApp.expand();
+      webapp.MainButton.hide();
+      alert(webapp.WebApp.platform, webapp.viewportHeight);
     </script>
   </body>
 </html>
