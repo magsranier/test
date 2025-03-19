@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+body {
+  padding-bottom: 200px;
+}
+
 div {
   width: 100%;
 }
