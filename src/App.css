@@ -30,7 +30,7 @@ div {
 
 .body {
   height: 80%;
-  background-color: blue;
+  background-color: green;
   overflow: auto;
   display: flex;
   flex-direction: column;

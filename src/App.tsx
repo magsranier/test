@@ -1,8 +1,10 @@
 import "./App.css";
+import { useEffect } from "react";
 
 const App = () => {
   const items = Array.from({ length: 100 });
-  console.log();
+
+  useEffect(() => {}, []);
 
   return (
     <div className="container">
