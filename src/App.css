@@ -6,6 +6,7 @@
 
 body {
   padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
 }
 
 .container {
@@ -42,7 +43,7 @@ div {
 }
 
 .item {
-  background-color: brown;
+  background-color: orange;
   padding: 2rem;
   width: 100%;
 }
