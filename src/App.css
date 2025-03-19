@@ -42,3 +42,9 @@ div {
   padding: 2rem;
   width: 100%;
 }
+
+@supports (-webkit-touch-callout: none) {
+  .footer {
+    margin-bottom: 20px;
+  }
+}
