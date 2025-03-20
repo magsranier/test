@@ -18,7 +18,7 @@ const App = () => {
 
     if (viewport) {
       console.log("WHY ARE YOU RUNNING?");
-      // divRef.current.style.height = `${viewport}vh`;
+      divRef.current.style.height = `${viewport}px !important`;
       divRef.current.style.backgroundColor = "red";
     }
   }, []);
