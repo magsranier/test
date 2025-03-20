@@ -5,7 +5,6 @@ import { useSearchParams } from "react-router-dom";
 const App = () => {
   const divRef = useRef<HTMLDivElement | null>(null);
   const [searchParams] = useSearchParams();
-  const items = Array.from({ length: 100 });
 
   useEffect(() => {
     if (!divRef.current) return;
