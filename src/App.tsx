@@ -28,11 +28,7 @@ const App = () => {
     <div className="container" ref={divRef}>
       <div className="header">HEADER</div>
 
-      <div className="body">
-        {items.map((_, ind) => (
-          <div className="item">ITEM {ind}</div>
-        ))}
-      </div>
+      <div className="body"></div>
       <div className="footer">FOOTER</div>
     </div>
   );
