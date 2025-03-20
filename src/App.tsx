@@ -11,6 +11,8 @@ const App = () => {
     if (!divRef.current) return;
     const platform = searchParams.get("platform");
 
+    alert("TESTTTTT");
+
     if (platform === "ios") {
       divRef.current.style.height = "96dvh";
       divRef.current.style.backgroundColor = "red";
