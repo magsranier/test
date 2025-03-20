@@ -18,8 +18,11 @@
       const sampleURL = new URL(
         "https://www.client8.me/home/?fromGame=telegramPlayNow&sessionToken={{sessionToken}}"
       );
-      sampleURL.searchParams.set("platform", window.Telegram.WebApp.platform);
-      sampleURL.searchParams.set("viewport", "796");
+      const myviewport = window.Telegram.Webapp.viewportHeight;
+      const calculate = ((myviewport - 100) / 1000) * 100;
+
+      alert(calculate);
+      sampleURL.searchParams.set("viewport", calculate);
       const app = window.Telegram;
       app.WebApp.expand();
       alert(window.Telegram.WebApp.platform);

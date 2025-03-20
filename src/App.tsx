@@ -9,16 +9,16 @@ const App = () => {
 
   useEffect(() => {
     if (!divRef.current) return;
-    const platform = searchParams.get("platform");
+    const viewport = searchParams.get("viewport");
 
     alert("TESTTTTT");
-    alert(platform);
+    alert(viewport);
 
     console.log("TESTTT");
 
-    if (platform === "ios") {
+    if (viewport) {
       console.log("WHY ARE YOU RUNNING?");
-      divRef.current.style.height = "96dvh";
+      divRef.current.style.height = `${viewport}vh`;
       divRef.current.style.backgroundColor = "red";
     }
   }, []);
