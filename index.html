@@ -15,15 +15,10 @@
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <script>
-      const sampleURL = new URL(
-        "https://www.client8.me/home/?fromGame=telegramPlayNow&sessionToken={{sessionToken}}"
-      );
+      window.Telegram.WebApp.expand();
       const myviewport = window.Telegram.Webapp.viewportHeight;
       const calculate = ((myviewport - 100) / 1000) * 100;
-
       sampleURL.searchParams.set("viewport", calculate);
-      const app = window.Telegram;
-      app.WebApp.expand();
       alert(calculate);
       alert(myviewport);
     </script>
