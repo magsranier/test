@@ -21,11 +21,11 @@
       const myviewport = window.Telegram.Webapp.viewportHeight;
       const calculate = ((myviewport - 100) / 1000) * 100;
 
-      alert(calculate);
       sampleURL.searchParams.set("viewport", calculate);
       const app = window.Telegram;
       app.WebApp.expand();
-      alert(window.Telegram.WebApp.platform);
+      alert(calculate);
+      alert(myviewport);
     </script>
   </body>
 </html>
