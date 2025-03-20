@@ -1,13 +1,24 @@
 import "./App.css";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "react-router-dom";
 
 const App = () => {
+  const divRef = useRef<HTMLDivElement | null>(null);
+  const [searchParams] = useSearchParams();
   const items = Array.from({ length: 100 });
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (!divRef.current) return;
+    const platform = searchParams.get("platform");
+
+    if (platform === "ios") {
+      divRef.current.style.height = "96dvh";
+      divRef.current.style.backgroundColor = "red";
+    }
+  }, []);
 
   return (
-    <div className="container">
+    <div className="container" ref={divRef}>
       <div className="header">HEADER</div>
 
       <div className="body">

@@ -5,8 +5,9 @@
 }
 
 .container {
-  height: 96dvh;
+  height: 100dvh;
   width: 100%;
+  background-color: aqua;
 }
 
 div {
@@ -30,7 +31,6 @@ div {
 
 .body {
   height: 80%;
-  background-color: green;
   overflow: auto;
   display: flex;
   align-items: start;
