@@ -17,6 +17,7 @@ const App = () => {
     console.log("TESTTT");
 
     if (viewport) {
+      alert(`${viewport} HATDOG`);
       console.log("WHY ARE YOU RUNNING?");
       divRef.current.style.height = `${viewport}px !important`;
       divRef.current.style.backgroundColor = "red";
