@@ -13,6 +13,8 @@ const App = () => {
 
     alert("TESTTTTT");
 
+    console.log("TESTTT");
+
     if (platform === "ios") {
       divRef.current.style.height = "96dvh";
       divRef.current.style.backgroundColor = "red";
