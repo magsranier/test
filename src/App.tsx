@@ -12,10 +12,12 @@ const App = () => {
     const platform = searchParams.get("platform");
 
     alert("TESTTTTT");
+    alert(platform);
 
     console.log("TESTTT");
 
     if (platform === "ios") {
+      console.log("WHY ARE YOU RUNNING?");
       divRef.current.style.height = "96dvh";
       divRef.current.style.backgroundColor = "red";
     }
