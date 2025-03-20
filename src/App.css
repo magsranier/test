@@ -30,8 +30,8 @@ div {
 }
 
 .body {
-  height: 50%;
-  overflow: auto;
+  height: 80%;
+  overflow: hidden;
   display: flex;
   align-items: start;
   justify-content: start;
