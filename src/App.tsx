@@ -24,11 +24,18 @@ const App = () => {
   }, []);
 
   return (
-    <iframe
-      src="https://client8.me"
-      className="container"
-      scrolling="no"
-    ></iframe>
+    <div className="container" ref={divRef}>
+      <div className="header">HEADER</div>
+
+      <div>
+        <input type="text" />
+      </div>
+      <div>
+        <input type="text" />
+      </div>
+      <div className="body"></div>
+      <div className="footer">FOOTER</div>
+    </div>
   );
 };
 
