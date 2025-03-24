@@ -12,12 +12,21 @@ const App = () => {
     }, 500);
   };
 
-  alert("TESTT");
+  alert("TESTT2");
 
   useEffect(() => {
-    if (WebApp) {
-      WebApp.expand();
-    }
+    // if (WebApp) {
+    //   WebApp.expand();
+    // }
+
+    document.addEventListener("focusin", () => {
+      document.body.style.overflow = "hidden";
+    });
+
+    document.addEventListener("focusout", () => {
+      document.body.style.overflow = "";
+    });
+
     // if (!divRef.current) return;
     // const viewport = searchParams.get("viewport");
     // // alert("TESTTTTT");
@@ -45,10 +54,10 @@ const App = () => {
 
       <div className="body">
         <div>
-          <input type="text" onFocus={onfocus} />
+          <input type="text" />
         </div>
         <div>
-          <input type="text" onFocus={onfocus} />
+          <input type="text" />
         </div>
       </div>
       <div className="footer">FOOTER</div>
