@@ -11,9 +11,9 @@ html {
 
 html,
 body {
-  /* overscroll-behavior: none;
+  overscroll-behavior: none;
   -webkit-overflow-scrolling: touch;
-  height: 100dvh;
+  /* height: 100dvh;
   overflow: hidden; */
 }
 
