@@ -8,7 +8,7 @@ const App = () => {
   const [searchParams] = useSearchParams();
 
   const onfocus = () => {
-    alert("FOCUSED");
+    console.log("FOCUSED");
     setTimeout(() => {
       WebApp.expand();
     }, 500);
