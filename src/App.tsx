@@ -10,13 +10,13 @@ const App = () => {
     if (!divRef.current) return;
     const viewport = searchParams.get("viewport");
 
-    alert("TESTTTTT");
-    alert(viewport);
+    // alert("TESTTTTT");
+    // alert(viewport);
 
     console.log("TESTTT");
 
     if (viewport) {
-      alert(`${viewport} HATDOG`);
+      // alert(`${viewport} HATDOG`);
       console.log("WHY ARE YOU RUNNING?");
       divRef.current.style.height = `${viewport}vh`;
       divRef.current.style.backgroundColor = "red";
