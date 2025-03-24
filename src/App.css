@@ -19,6 +19,7 @@ body {
   height: 200vh;
   width: 100%;
   background-color: aqua;
+  overflow: auto;
 }
 
 div {
