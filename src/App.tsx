@@ -25,6 +25,7 @@ const App = () => {
 
     document.querySelectorAll("input, textarea").forEach((el) => {
       el.addEventListener("focus", () => {
+        alert("FOCUSED");
         setTimeout(() => {
           WebApp.expand();
         }, 500);
