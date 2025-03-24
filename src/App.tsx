@@ -12,6 +12,8 @@ const App = () => {
     }, 500);
   };
 
+  alert("TESTT");
+
   useEffect(() => {
     if (WebApp) {
       WebApp.expand();
