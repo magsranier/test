@@ -15,13 +15,14 @@ body {
   -webkit-overflow-scrolling: touch;
   height: 100dvh;
   overflow: hidden;
+  background: red;
 }
 
 .container {
   height: 100vh;
   width: 100%;
-  background-color: aqua;
-  overflow: auto;
+  /* background-color: aqua; */
+  overflow: hidden;
 }
 
 div {
@@ -57,4 +58,16 @@ div {
   background-color: pink;
   padding: 2rem;
   width: 100%;
+}
+
+iframe {
+  overflow: hidden;
+  border: none;
+  width: 100%;
+  height: 100vh;
+  scrollbar-width: none; /* Firefox */
+}
+
+iframe::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }

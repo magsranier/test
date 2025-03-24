@@ -24,12 +24,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container" ref={divRef}>
-      <div className="header">HEADER</div>
-
-      <div className="body"></div>
-      <div className="footer">FOOTER</div>
-    </div>
+    <iframe
+      src="https://client8.me"
+      className="container"
+      scrolling="no"
+    ></iframe>
   );
 };
 
