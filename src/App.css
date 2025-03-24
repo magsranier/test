@@ -6,6 +6,15 @@
 
 html {
   font-size: 50px;
+  background-color: black;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+  height: 100dvh;
+  overflow: hidden;
 }
 
 .container {
