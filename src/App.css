@@ -13,8 +13,6 @@ html,
 body {
   overscroll-behavior: none;
   -webkit-overflow-scrolling: touch;
-  height: 100dvh;
-  overflow: hidden;
 }
 
 .container {
