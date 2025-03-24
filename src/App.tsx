@@ -43,13 +43,14 @@ const App = () => {
     <div className="container" ref={divRef}>
       <div className="header">HEADER</div>
 
-      <div>
-        <input type="text" onFocus={onfocus} />
+      <div className="body">
+        <div>
+          <input type="text" onFocus={onfocus} />
+        </div>
+        <div>
+          <input type="text" onFocus={onfocus} />
+        </div>
       </div>
-      <div>
-        <input type="text" onFocus={onfocus} />
-      </div>
-      <div className="body"></div>
       <div className="footer">FOOTER</div>
     </div>
   );
