@@ -5,21 +5,15 @@ import WebApp from "@twa-dev/sdk";
 const App = () => {
   const divRef = useRef<HTMLDivElement | null>(null);
 
-  const onfocus = () => {
-    console.log("FOCUSED");
-    setTimeout(() => {
-      WebApp.expand();
-    }, 500);
-  };
-
-  alert("TESTT2");
-
   useEffect(() => {
     // if (WebApp) {
     //   WebApp.expand();
     // }
 
+    alert("TESTT2");
+
     document.addEventListener("focusin", () => {
+      console.log("FOCUSED");
       document.body.style.overflow = "hidden";
     });
 
