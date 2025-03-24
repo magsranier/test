@@ -15,6 +15,9 @@ const App = () => {
   };
 
   useEffect(() => {
+    if (WebApp) {
+      WebApp.expand();
+    }
     // if (!divRef.current) return;
     // const viewport = searchParams.get("viewport");
     // // alert("TESTTTTT");
