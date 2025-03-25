@@ -44,11 +44,11 @@ div {
 }
 
 .footer {
-  background-color: yellowgreen;
+  background-color: darkslateblue;
 }
 
 input {
-  touch-action: pinch-zoom; /* or none */
+  touch-action: pan-y; /* or none */
 }
 
 .body {
