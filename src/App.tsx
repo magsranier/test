@@ -1,14 +1,14 @@
 import "./App.css";
 import { useEffect, useRef } from "react";
-// import WebApp from "@twa-dev/sdk";
+import WebApp from "@twa-dev/sdk";
 
 const App = () => {
   const divRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    // if (WebApp) {
-    //   WebApp.expand();
-    // }
+    if (WebApp) {
+      WebApp.expand();
+    }
     // if (!divRef.current) return;
     // const viewport = searchParams.get("viewport");
     // // alert("TESTTTTT");
