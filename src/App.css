@@ -44,11 +44,11 @@ div {
 }
 
 .footer {
-  background-color: darkslateblue;
+  background-color: aqua;
 }
 
 input {
-  touch-action: pan-y; /* or none */
+  font-size: 20px; /* or none */
 }
 
 .body {
