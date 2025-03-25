@@ -44,7 +44,11 @@ div {
 }
 
 .footer {
-  background-color: violet;
+  background-color: yellow;
+}
+
+input {
+  touch-action: manipulation; /* or none */
 }
 
 .body {
