@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 100svh;
   width: 100%;
   /* background-color: aqua; */
   overflow: auto;
@@ -44,7 +44,7 @@ div {
 }
 
 .footer {
-  background-color: green;
+  background-color: violet;
 }
 
 .body {
