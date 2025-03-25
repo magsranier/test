@@ -42,7 +42,7 @@ const App = () => {
           <input type="text" />
         </div>
       </div>
-      <div className="footer">FOOTER</div>
+      <div className="footer"></div>
     </div>
   );
 };

@@ -23,6 +23,7 @@ body {
   width: 100%;
   /* background-color: aqua; */
   overflow: auto;
+  position: relative;
 }
 
 div {
@@ -34,6 +35,8 @@ div {
 }
 .footer {
   height: 15px;
+  position: absolute;
+  bottom: 0;
 }
 
 .header {
