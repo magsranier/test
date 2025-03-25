@@ -32,14 +32,16 @@ const App = () => {
 
   return (
     <div className="container" ref={divRef}>
-      <div className="header">HEADER</div>
+      <div className="content">
+        <div className="header">HEADER</div>
 
-      <div className="body">
-        <div>
-          <input type="text" />
-        </div>
-        <div>
-          <input type="text" />
+        <div className="body">
+          <div>
+            <input type="text" />
+          </div>
+          <div style={{ height: "100vh" }}>
+            <input type="text" />
+          </div>
         </div>
       </div>
       <div className="footer"></div>
