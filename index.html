@@ -13,5 +13,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      document.addEventListener("focusin", () => {
+        console.log("FOCUSED");
+        document.body.style.overflow = "hidden";
+      });
+
+      document.addEventListener("focusout", () => {
+        document.body.style.overflow = "";
+      });
+    </script>
   </body>
 </html>

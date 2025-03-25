@@ -9,18 +9,6 @@ const App = () => {
     // if (WebApp) {
     //   WebApp.expand();
     // }
-
-    alert("TESTT2");
-
-    document.addEventListener("focusin", () => {
-      console.log("FOCUSED");
-      document.body.style.overflow = "hidden";
-    });
-
-    document.addEventListener("focusout", () => {
-      document.body.style.overflow = "";
-    });
-
     // if (!divRef.current) return;
     // const viewport = searchParams.get("viewport");
     // // alert("TESTTTTT");
