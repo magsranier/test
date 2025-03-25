@@ -18,13 +18,32 @@
     <script type="module" src="/src/main.tsx"></script>
 
     <script>
-      document.addEventListener("focusin", () => {
-        document.body.style.overflow = "hidden";
+      document.addEventListener("focusin", (event) => {
+        // document.body.style.overflow = "hidden";
+        setTimeout(() => {
+          console.log("FOCUSED");
+          event.target.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest",
+          });
+        }, 300);
       });
 
       document.addEventListener("focusout", () => {
         document.body.style.overflow = "";
       });
+
+      // document
+      //   .querySelector("input")
+      //   .addEventListener("focusin", function (event) {
+      //     console.log("FOCUSED");
+      //     setTimeout(() => {
+      //       event.target.scrollIntoView({
+      //         behavior: "smooth",
+      //         block: "nearest",
+      //       });
+      //     }, 300);
+      //   });
     </script>
   </body>
 </html>
